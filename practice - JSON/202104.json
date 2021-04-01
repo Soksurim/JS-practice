@@ -1,62 +1,63 @@
 [
   {
     "id": 0,
-    "date": 20210401,
+    "date": 20210331,
     "task": {
-      "working_on": [
-        {
-          "id": 0,
-          "content": "[JS] practice Promise()"
-        },
-        {
-          "id": 1,
-          "content": "[JS] practice fetch()"
-        },
-        {
-          "id": 2,
-          "content": "[JS] practice sleep()"
-        }
-      ],
+      "working_on": [],
       "done": [
         {
-          "id": 0,
-          "content": "블로그 정리"
+          "tag": "Python",
+          "title": "Python 인강",
+          "content": "01:01:32 / 6:00:00\n랜덤, 슬라이싱, 문자열 처리"
         },
         {
-          "id": 1,
-          "content": "강의 듣기"
-        },
-        {
-          "id": 2,
-          "content": "잠자기"
+          "tag": "JSON",
+          "title": "JSON 연습용 chatbox 제작",
+          "content": "JSON 파일 export 기능필요"
         }
       ],
       "error": [
         {
-          "id": 0,
-          "content": "[JS] 내부함수 값 리턴이 안됨"
+          "tag": "JS",
+          "title": "compare_Array.some(function (data) { ... } 안에서 외부값으로 비교를 못하는 문제",
+          "content": "내부함수는 promise()를 사용해서 빼내올 수 있다."
         },
         {
-          "id": 1,
-          "content": "[JS] fetch().then() 내부의 값을 받아올 수 없음"
+          "tag": "SimpleWebBoard",
+          "title": "c서버 실행시, Controller의 @RequestParam(value=\"/\") 로 받는 index 메소드가 3번 실행되는 이유???",
+          "content": "미해결"
         },
         {
-          "id": 2,
-          "content": "잠이안옴"
+          "tag": "JS",
+          "title": "compare_Array.some(function (data) { ... } 안에서 외부값으로 비교를 못하는 문제",
+          "content": "내부함수는 promise()를 사용해서 빼내올 수 있다."
+        },
+        {
+          "tag": "axios",
+          "title": " axios 데이터 통신 오류",
+          "content": " \"data: 'str123=' + str123\" get 방식 url주소 형식으로 보낼 수 있다."
+        },
+        {
+          "tag": "vscode",
+          "title": "C언어 scanf 작동안됨",
+          "content": "output에서는 입력을 할 수 없다. terminal에서 실행시켜야 한다."
         }
       ],
       "memo": [
         {
-          "id": 0,
-          "content": "오늘 식단"
+          "tag": "SimpleWebBoard",
+          "title": "서버 실행전 DB commit 되있는지 확인할것.",
+          "content": "서버 실행전 DB commit 되있는지 확인할것."
         },
         {
-          "id": 1,
-          "content": "오늘 배운거"
+          "tag": "ORACLE",
+          "title": "execute multiple query",
+          "content": "서버 실행전 DB commit 되있는지 확인할것."
         },
         {
-          "id": 2,
-          "content": "수면 시간"
+          "tag": "SimpleWebBoard",
+          "title": "서버 실행전 DB commit 되있는지 확인할것.",
+          "content": "서버 실행전 DB commit 되있는지 확인할것."
         }
       ],
       "todo": [
@@ -71,82 +72,6 @@
         {
           "id": 2,
           "content": "[sleed] 수면 시간 기록하기"
-        }
-      ]
-    }
-  },
-  {
-    "id": 1,
-    "date": 20210402,
-    "task": {
-      "working_on": [
-        {
-          "id": 0,
-          "content": "[JS] complete Promise()"
-        },
-        {
-          "id": 1,
-          "content": "[JS] complete fetch()"
-        },
-        {
-          "id": 2,
-          "content": "[JS] complete sleep()"
-        }
-      ],
-      "done": [
-        {
-          "id": 0,
-          "content": "블로그 정리2"
-        },
-        {
-          "id": 1,
-          "content": "강의 듣기2"
-        },
-        {
-          "id": 2,
-          "content": "잠자기2"
-        }
-      ],
-      "error": [
-        {
-          "id": 0,
-          "content": "[JS] 내부함수 값 리턴이 안됨2"
-        },
-        {
-          "id": 1,
-          "content": "[JS] fetch().then() 내부의 값을 받아올 수 없음2"
-        },
-        {
-          "id": 2,
-          "content": "잠이 안옴2"
-        }
-      ],
-      "memo": [
-        {
-          "id": 0,
-          "content": "오늘 식단2"
-        },
-        {
-          "id": 1,
-          "content": "오늘 배운거2"
-        },
-        {
-          "id": 2,
-          "content": "수면 시간2"
-        }
-      ],
-      "todo": [
-        {
-          "id": 0,
-          "content": "[lecture] 안드로이드 프로그래밍 듣기2"
-        },
-        {
-          "id": 1,
-          "content": "[lecture] C프로그래밍 듣기2"
-        },
-        {
-          "id": 2,
-          "content": "[sleed] 수면 시간 기록하기2"
         }
       ]
     }
