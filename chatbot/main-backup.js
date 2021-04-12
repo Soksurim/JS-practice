@@ -4,9 +4,6 @@
 // 가입시 기본 유저데이터 생성
 // 유저 순위 표시
 
-/***********************************************
-               수정 전 백업할 것!!!!
-*******************************************************/
 
 
 const scriptName = "json";
@@ -19,10 +16,6 @@ let timerSwitch = false; // timer on/off
  * (boolean) replier.reply(room, message, hideErrorToast = false) // 전송 성공시 true, 실패시 false 반환
  * (string) imageDB.getProfileBase64()
  * (string) packageName
- * 
- * *****************************************************
- *           수정 전 백업할 것!!!!
- * ******************************************************
  */
 
 function response(
@@ -137,7 +130,9 @@ function register(replier, sender, imageDB, isGroupChat) { // 이미 가입된 �
 function showUserList(replier) {
   var txt = "[유저목록]\n";
   var db = JSON.parse(DataBase.getDataBase("profileList.txt"));
-  for(i in db ){ txt += i + ". " + db[i].name + " " + db[i].registerDate + "\n"; }
+  for(i in db ){
+    txt += i + ". " + db[i].name + " " + db[i].registerDate + "\n";
+  }
   replier.reply(txt);
 }
 
@@ -145,13 +140,18 @@ function update(sender, replier){
   var db = JSON.parse(DataBase.getDataBase("profileList.txt"));
   
   for(index in db){
-    if(db[index].name.mathch(sender)){
+    if(db[index].name.includes("surimi"))
+{
       db[index].name = "surimi";
       db[index].lastActive = getDate();
     }
   }
+  
+  replier.reply(JSON.stringify(db));
   DataBase.setDataBase("profileList.txt", JSON.stringify(db));
+  
 }
+
 
 function getDate(){
       var day = new Date();
